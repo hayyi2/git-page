@@ -2,7 +2,6 @@
 layout: default
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id vero voluptas eveniet quasi, cupiditate, accusamus esse veniam, odio velit veritatis? Impedit et, rem, odit eius nemo culpa laborum soluta.
-
 {%- if site.posts.size > 0 -%}
 <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
 <ul class="post-list">
@@ -21,3 +20,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id vero volup
 	</li>
 	{%- endfor -%}
 </ul>
+
+{%- endif -%}
