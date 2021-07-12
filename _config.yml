@@ -1,1 +1,7 @@
 title: Git Page
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:path
+    layout: project
